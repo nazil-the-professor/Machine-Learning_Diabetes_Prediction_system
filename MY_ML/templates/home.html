@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+    div{
+            color:white;
+        }
+        h1{
+            color: black;
+            font-family: arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 150px;
+            opacity:0.8;
+        }
+        h2{
+            color: 'white';
+            font-family: arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 400px;
+        }
+        body {
+            background-image:url("{% static 'pythonProject/images/img7.jpg'%}");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%, 80%, 80%,80%;
+
+        }
+        input[type=submit]{
+            background-color: black;
+            border: 2px;
+            color: grey;
+            padding: 16px 32px;
+            cursor: pointer;
+            margin-top: 15px;
+            border-radius: 10px;
+            opacity:0.7;
+        }
+
+    </style>
+</head>
+<body>
+<div align ="center">
+    <h1>
+        WELCOME TO DIABETES PREDICTION SYSTEM
+    </h1>
+    <form action="predict">
+        <input type ="submit" value="Lets get started" >
+    </form>
+
+</div>
+</body>
+</html>

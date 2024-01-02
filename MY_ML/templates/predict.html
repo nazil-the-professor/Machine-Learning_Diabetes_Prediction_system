@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Page</title>
+    <style>
+         body {
+            background-image:url("{% static 'pythonProject/images/img6.jpg'%}");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+         .main {
+            position:absolute;
+            top:240px;
+            left:680px;
+            width:550px;
+            background-color:white;
+            border-radius:50px ;
+            align-items:center;
+            padding:5%;
+            opacity:0.6;
+        }
+        h1{
+            color: '#000000';
+            font-size: 30px;
+            font-weight: bold;
+
+
+        }
+         input[type=submit]{
+            background-color: #000000;
+            opacity:0,9;
+            border: 2px;
+            color: white;
+            padding: 8px 16px;
+            cursor: pointer;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Diabetes Prediction</h1>
+
+    <div align ="center" class="main">
+
+        <form action="result">
+            <table>
+                <tr>
+                    <td align="right"><b> Pregnancies</b></td>
+                    <td align="left">   <input type ="text" name="Pregnancies" required></td>
+                </tr>
+                <tr>
+                    <td align="right"> <b>Glucose</b></td>
+                    <td align="left">   <input type ="text" name="Glucose" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Blood Pressure</b></td>
+                    <td align="left">   <input type ="text" name="BloodPressure" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Skin Thickness</b></td>
+                    <td align="left"><b><input type ="text" name="SkinThickness" required></b></td>
+                </tr>
+                <tr>
+                    <td align="right"> <b>Insulin</b> </td>
+                    <td align="left">   <input type ="text" name="Insulin" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><b> BMI</b> </td>
+                    <td align="left">   <input type ="text" name="BMI" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><b>Diabetes Pedigree function</b> </td>
+                    <td align="left">   <input type ="text" name="DiabetesPedigreeFunction" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><b> Age</b> </td>
+                    <td align="left">   <input type ="text" name="Age" required></td>
+                </tr>
+            </table>
+           <input type="submit">
+        </form>
+        Result: {{prediction}}
+    </div>
+
+</body>
+</html>
