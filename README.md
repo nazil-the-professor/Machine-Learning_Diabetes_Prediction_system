@@ -1,4 +1,5 @@
-This is my first Machine Learning project ehich predict a person is going to have diabetes or not. You would find below a django app , csv files, jupyter notebook.
+This is my first Machine Learning project, which predicts whether a person is going to have diabetes or not. 
+You would find below a django app , csv files, jupyter notebook.
 Note: you have to run following commands:
 pip3 install django
 pip3 install pandas
@@ -6,7 +7,8 @@ pip3 install seaborn
 pip3 install virtualenv
 pip3 install matplotlib
 
-Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your location and then use
+Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your 
+location and then use
 python manage.py runserver
 
 I used vscode as an IDE and anaconda to run the jupyer notebook
