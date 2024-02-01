@@ -23,6 +23,6 @@ Predict Page
 
 
 Video of my Project 
-https://github.com/nazil-the-professor/ML_Diabetes_Pred/assets/95706052/95453165-d4ff-4736-8fb5-b3978cb6a06e
+![video](https://github.com/nazil-the-professor/ML_Diabetes_Pred/assets/95706052/95453165-d4ff-4736-8fb5-b3978cb6a06e)
 
 
