@@ -17,5 +17,12 @@ Those are screenshots of how the application appears to the user
 Home Page 
 ![image](https://github.com/nazil-the-professor/ML_Diabetes_Pred/assets/95706052/686e17b2-37da-4b32-b096-9e6947987fdd)
 
+
 Predict Page
 ![image](https://github.com/nazil-the-professor/ML_Diabetes_Pred/assets/95706052/d84939db-bf95-4a88-bcaa-b3c3db7d5903)
+
+
+Video of my Project 
+https://github.com/nazil-the-professor/ML_Diabetes_Pred/assets/95706052/95453165-d4ff-4736-8fb5-b3978cb6a06e
+
+
