@@ -10,7 +10,7 @@ pip3 install matplotlib
 Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your 
 location and then use
 python manage.py runserver
-
+ 
 I used vscode as an IDE and anaconda to run the jupyer notebook
 Those are screenshots of how the application appears to the user
 
