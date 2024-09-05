@@ -7,7 +7,7 @@ pip3 install seaborn
 pip3 install virtualenv
 pip3 install matplotlib    
   
-Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your  
+Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your   
 location and then use   
 python manage.py runserver 
   
