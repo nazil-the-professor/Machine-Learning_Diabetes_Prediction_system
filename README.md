@@ -3,7 +3,7 @@ You would find below a django app , csv files, jupyter notebook.
 Note: you have to run following commands:
 pip3 install django 
 pip3 install pandas
-pip3 install seaborn
+pip3 install seaborn 
 pip3 install virtualenv   
 pip3 install matplotlib       
     
