@@ -1,7 +1,7 @@
 This is my first Machine Learning project, which predicts whether a person is going to have diabetes or not. 
 You would find below a django app , csv files, jupyter notebook.
 Note: you have to run following commands:
-pip3 install django
+pip3 install django 
 pip3 install pandas
 pip3 install seaborn
 pip3 install virtualenv   
