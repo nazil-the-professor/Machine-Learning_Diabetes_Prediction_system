@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 import joblib
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier 
 import pandas as pd  
 from sklearn.model_selection import train_test_split 
  
