@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
  
 #
 
-def home(request):
+def home(request): 
     return render(request, 'home.html')
 
 def predict(request):
