@@ -1,4 +1,5 @@
 Here's My project live on :-http://18.130.242.41/
+
 This is my first Machine Learning project, which predicts whether a person is going to have diabetes or not. 
 You would find below a django app , csv files, jupyter notebook.
 Note: you have to run following commands:
@@ -8,7 +9,7 @@ pip3 install seaborn
 pip3 install virtualenv   
 pip3 install matplotlib        
     
-Make sure you update the location of the "diabetes.csv" on the  file "views.py" according to your     m
+Make sure you update the location of the "diabetes.csv" on the  file "views.py" according to your     
 location and then use    
 python manage.py runserver  
   
