@@ -1,3 +1,4 @@
+Here's My project live on :-http://18.130.242.41/
 This is my first Machine Learning project, which predicts whether a person is going to have diabetes or not. 
 You would find below a django app , csv files, jupyter notebook.
 Note: you have to run following commands:
